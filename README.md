@@ -11,7 +11,7 @@
     
     <h2> Este conteúdo pretence aos alunos do curso de web dev do ano 2021/22 da escola Etic </h2>
     <a href="http://www.etic.pt" target="_blank">Etic</a>
-    <h3> Feito pelo aluno Miguel Silva </h2>
+    <h3> Feito pelo aluno Miguel Silva </h3>
     
   </body>
 </html>
