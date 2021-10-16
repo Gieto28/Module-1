@@ -5,7 +5,6 @@
 
 <html>
   <head>
-    <title> Informação e matéria </title>
     <metadata description="Matéria e informação obtida pelos alunos da etic, web dev, 21/22"  
   </head>
   <body>
