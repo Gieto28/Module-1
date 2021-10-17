@@ -12,7 +12,7 @@
 
     <nome_do-elemento3 prop1="valor" prop2="valor2"> info que é vista no site </nome_do_elemento2>
         
-    <nome_do_elemento> elementos têm que estar aqui dentro </nome_do_elemento>
+    <nome_do_elemento> palavras têm que estar aqui dentro </nome_do_elemento>
       
       
       
@@ -21,9 +21,9 @@
     colocar sempre <html> </html> toda a informação tem que estar presente entre estes
 
         colocar sempre <head> </head> head é a metadata = titulo do separador, descrição de websites, consumidos pelo cabeçalho, pelo google 
-            pesquisa não organica é anuncios na pesquisa e anuncios organicos é a pesquisa que não são os anúncios
+            pesquisa não organica é anuncios na pesquisa e pesquisa organica é a pesquisa que não são os anúncios
             <title></title> título que aparece no tab
-            <meta charset="utf-8"> tipo de character que a pagna mostra/lê(?) sem isto a pagina não entende certas letras e charsets a mais é denecessário se não é utilizado | ex: site portugues e utilizarmos KOI8-R (russo, alfabeto cirilico) |
+            <meta charset="utf-8"> tipo de character que a pagina mostra/lê(?) sem isto a pagina não entende certas letras e charsets a mais é denecessário se não é utilizado | ex: site portugues e utilizarmos KOI8-R (russo, alfabeto cirilico) |
             <meta description="este é um website sobre x"> para descrever o website no google
             <meta keywords="cursos,css,html,javascript,programação"> palavras chave para encontrar o website. Fazer pesquisa e falar com o cliente sobre o produto e serviços para se fazer um brainstorm de keywords que pessoas possam utilizar para encontrar o website
 
