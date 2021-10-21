@@ -1,0 +1,218 @@
+<!--
+    para mais informações sobre cada elemento basta utilizar ctrl+F e utilizar a barra de de pesquisa para procurar nos comentários na parte de baixo ou colocar o cursor por cima de um elemento para saber mais sobre o mesmo.
+-->
+<!doctype html>
+<html>
+
+<head>
+    <title>A minha primeira página</title>
+    <meta charset="utf-8">
+    <meta description="a minha primeira pagina web feita no curso de web dev na etic">
+    <meta keywords="curso,html,css,javascrpipt,web development,etic">
+</head>
+
+<body>
+
+    <h1> imagem da etic com heading h1 </h1>
+
+    <a href="http://www.etic.pt " target="_blank">
+        <img src="images/imagem_da_etic.png" alt="imagem da etic">
+    </a>
+
+    <h2>titulo com heading h2</h2>
+    <p1>isto é um paragrafo</p1>
+
+    <h3>titulo com heading h3</h3>
+    <p2> isto é um segundo paragrafo </p2>
+
+    <h4>Isto é um lorem com o heading h4</h4>
+    <p3>Lorem ipsum dolor sit amet consectetur <a
+            href="https://ppeu2021.infarmed.pt/pt/galleries/lorem-ipsum-dolor-sit-amet-consectetur-adipisicing-elit-4"
+            target=_blank>adipisicing</a> elit. Consequatur inventore enim aperiam atque iusto repellat maiores odio
+        possimus reprehenderit recusandae earum, iure saepe culpa hic non aut fugiat? Iure, officia.</p3>
+
+
+    <h5>isto é um lorem com heading com h5</h5>
+    <p4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit nihil vitae quisquam, sapiente doloribus quae
+        libero molestias quasi! Officiis earum vero dolores iusto veritatis distinctio soluta. Placeat minus quasi
+        aliquam.</p4>
+    <br>
+    <in> teste </in>
+
+    <h6>titulo com heading h6</h6>
+    <hr>
+    <a href="http://www.etic.pt" target="_blank">Site da ETIC</a>
+    <hr>
+
+    <ol>
+        <li>Item</li>
+        <ol>
+            <li>Item</li>
+            <li>Item</li>
+        </ol>
+        <li>Item</li>
+
+    </ol>
+    <ul>
+        <li>Item</li>
+        <li>Item</li>
+        <li>
+            <ul>
+                <li>Item</li>
+                <li>Item</li>
+                <li>Item</li>
+                <li>Item</li>
+            </ul>
+        </li>
+        <li>Item</li>
+        <li>Item</li>
+    </ul>
+    <li>teste2</li>
+    <!--organized and unorganized lists-->
+    <hr>
+    <audio controls loop>
+        <source src="audio/file_example_MP3_5MG.mp3" type="audio/mp3">
+    </audio> <br>
+    <!--audio file from inside the workspace-->
+    <hr>
+    <video controls width="500">
+        <source src="video/file_example_MP4_1280_10MG.mp4" type="video/mp4">
+    </video>
+    <!--video file from inside the workspace-->
+    <hr>
+    <iframe width="500" height="280" src="https://www.youtube.com/embed/hY7m5jjJ9mM" title="YouTube video player"
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+    <!--youtube video-->
+    <canvas>
+        <!-- 
+            canvas é utilizado para javascript
+        -->
+    </canvas>
+
+    <form action="teste.php" method="post">
+        <label for="name">Nome:</label>
+        <input type="text" name="nome" placeholder="introduz o teu nome..">
+        <br>
+        <label for="apelido">Apelido:</label>
+        <input type="text" name="apelido" placeholder="Introduz o teu apelido..">
+        <br>
+        <label for="password">Password:</label>
+        <input type="password" name="password">
+        <br>
+        <label for="data">Data:</label>
+        <input type="date" name="data">
+
+        <input type="submit" value="submeter">
+
+    </form>
+    <!--
+        form - a box that sends info to the server 
+        
+        method="get" envia informação a partir do url, não se utiliza este nos campos de registo de conta
+        method="post" envia a informação por array(estrutura de dados, que serve para conter informação), não é visivel no url
+
+        input type="text" text é o mais comum, onde vai ser colocada informação
+        input type="submit" põe uma box de submit  
+        
+        name="" - utiliza-se para sabermos qual a box que queremos identificar 
+        placeholder="" - o que está dentro dos campos onde se escreve
+        label for="" - o objetivo do label
+    -->
+</body>
+
+</html>
+
+<!-- 
+    
+    websites para analise:
+    fwa.com
+    awwwards
+    cssdesignawards
+    behance
+    material.io
+    don norman
+    w3schools
+    developer mozilla 
+    
+    --------------------------------------------------------------
+
+    tudo o que tiver entre estes dois é um comentário, ganhar habito de escrever tudo no comentáio
+    <nome_do_elemento>elementos têm que estar aqui dentro </nome_do_elemento>
+
+
+    nunca por assentos e por sempre tudo .hmtl, ex: contactos.hmtl em ficheiros 
+
+    hmtl
+
+    <nome_do_elemento>
+
+    <nome_do-elemento2></nome_do_elemento2>
+
+    <nome_do-elemento3 prop1="valor" prop2="valor2"> info que é vista no site </nome_do_elemento2>
+      
+      
+      
+    Colocar sempre <!doctype html>
+
+    Colocar sempre <html> </html> toda a informação tem que estar presente entre estes
+
+        colocar sempre <head> </head> head é sempre a metadata = titulo do separador, descrição de websites, consumidos pelo cabeçalho, pelo google 
+            pesquisa não organica é anuncios na pesquisa e anuncios organicos é a pesquisa sem anuncios
+            <title></title> título 
+            <meta charset="utf-8"> tipo de character que tem que estar no head
+            <meta description="descrição do website">
+            <meta keywords="palavras chave para encontrar o website">
+
+        colocar sempre <body> </body>
+
+            <h1> titulo </h1> adiciona titulos à pagina que tem tamanhos predefenidos sendo h1 maior que o h6 
+   
+    Exemplo de imagem:
+        <img src="/images/imagem_da_etic.png" alt="imagem da etic">
+
+        -img="" imagem, sem isto o elemento não funciona
+        -src="" source, funciona para ir buscar a imagem
+        -alt="" alternative text, serve para o website ler para os que têm incapacidade visual e quando a imagem não aparece, aparece o alt em vez da imagem. Muito importante. 
+        -width="" tamanho de imagem ou video, mas nunca se deve utilizar porque o tamanho/peso da imagem continua igual, mais vale utilizar um programa para diminuir o tamanho das imagens.
+        formatos de imagem: jpeg, png, gif. 
+            Utilizar sempre jpeg
+            png só se utiliza para transparencia
+            gif se precisar de uma imagem animada (videos são melhores)        
+
+    Os elementos de hmtl têm dois tipos de display por defeito -> block e inline 
+            block é tipo coluna e inline é lado a lado    
+        <br> significa break, quebra a linha para a linha debaixo
+        <hr> significa horizontal ruler, cria uma linha que pode ser editada em css
+
+    Como colocar um link
+        <a href="www.google.com"></a> exemplo de como colocar um link
+        target="_blank" = nova pagina web
+        target="_self" ou nao colocar nada, abre na mesma pagina web
+    
+
+    Como listar informação:
+        <ol> </ol> numeração ordenada de listas antes das palavras
+        <ul> </ul> lista com circulo antes das palavras
+        <li> </li> listagem de informação
+            os bullets conseguem ser modificado com css
+
+
+    Elementos de html5 que o flash player fazia:
+    Video e audio:
+        <canvas> </canvas>
+        <video> </video> - formato:mp4
+        <audio> </audio> - formato:mp3
+            controls + adiciona um controller
+            loop + põe o video em loop
+
+    Estes dois fazem a mesma coisa:
+        <div class="nav"></div>
+        <div class="footer"></div>
+
+        <nav></nav>
+        <footer></footer>
+    
+
+
+-->
