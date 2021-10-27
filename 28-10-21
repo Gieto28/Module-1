@@ -1,0 +1,342 @@
+<!--
+    para mais informações sobre cada elemento basta utilizar ctrl+F e utilizar a barra de de pesquisa para procurar nos comentários na parte de baixo.
+-->
+<!doctype html>
+<html>
+    <!-- html lang=eg dá informação ao browser que a linguagem que está no website
+
+    os elementos de html ou sao block ou inline
+    div não faz quebra de linha e span faz quebra de linha
+
+    span serve para identificar class especificas dentro de texto
+    div é mais geral
+    -->
+
+<head>
+    <title>A minha primeira página</title>
+    <meta charset="utf-8">
+    <meta description="a minha primeira pagina web feita no curso de web dev na etic">
+    <meta keywords="curso,html,css,javascrpipt,web development,etic">
+
+</head>
+
+<body>
+    <h3 id="top"><a href="#bottom">bottom of the page</a></h3>
+    <h1> imagem da etic com heading h1 </h1>
+
+    <a href="http://www.etic.pt " target="_blank">
+        <img src="images/imagem_da_etic.png" alt="imagem da etic" title="imagem da etic">
+    </a>
+
+    <h2><a href="#lorem">titulo com heading h2 - lorem</a></h2>
+    <p1>isto é um paragrafo</p1>
+
+    <h3><a href="#youtube"> titulo com heading h3 - video do youtube</a></h3>
+    <p2> isto é um segundo paragrafo </p2>
+    <!-- utilizei um a href para ligar a um id utilizando o nome de youtube com o # atrás para ir para o video do youtube a partir deste heading -->
+
+    <h4>Isto é um lorem com o heading h4</h4>
+    <p3>Lorem ipsum dolor sit amet consectetur <a href="https://ppeu2021.infarmed.pt/pt/galleries/lorem-ipsum-dolor-sit-amet-consectetur-adipisicing-elit-4" target=_blank>adipisicing</a> elit. Consequatur inventore enim aperiam atque iusto repellat maiores odio possimus reprehenderit recusandae earum, iure saepe culpa hic non aut fugiat? Iure, officia.</p3>
+
+
+    <h5>isto é um lorem com heading com h5</h5>
+    <p4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit nihil vitae quisquam, sapiente doloribus quae libero molestias quasi! Officiis earum vero dolores iusto veritatis distinctio soluta. Placeat minus quasi aliquam.</p4>
+    <in> teste </in>
+
+    <h6>titulo com heading h6</h6>
+    <hr>
+    <a href="http://www.etic.pt" target="_blank">Site da ETIC</a>
+    <hr>
+
+    <ol>
+        <li>Item</li>
+        <ol>
+            <li>Item</li>
+            <li>Item</li>
+        </ol>
+        <li>Item</li>
+
+    </ol>
+    <ul>
+        <li>Item</li>
+        <li>Item</li>
+        <li>
+            <ul>
+                <li>Item1</li>
+                <li>Item2</li>
+                <li>Item3</li>
+                <li>Item4</li>
+            </ul>
+        </li>
+        <li>Item</li>
+        <li>Item</li>
+    </ul>
+    <li>teste2</li>
+    <!--organized and unorganized lists-->
+    <hr>
+    <audio controls loop>
+        <source src="audio/file_example_MP3_5MG.mp3" type="audio/mp3">
+    </audio> <br>
+    <!--audo from file inside the workspace-->
+    <hr>
+    <video controls width="500">
+        <source src="video/file_example_MP4_1280_10MG.mp4" type="video/mp4">
+    </video>
+    <!--video from file inside the workspace-->
+    <hr>
+    <div id="youtube">
+        <iframe width="500" height="280" src="https://www.youtube.com/embed/hY7m5jjJ9mM" title="YouTube video player"
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+    </div>
+    <!--youtube video-->
+    <!--
+        <canvas>
+         
+            canvas é utilizado para javascript
+        </canvas>
+    -->    
+    <br>
+    <br>
+    <form action="teste.php" method="post">
+        <label for="name">Nome:</label>
+        <input type="text" name="nome" placeholder="introduz o teu nome..">
+        <br>
+        <label for="apelido">Apelido:</label>
+        <input type="text" name="apelido" placeholder="Introduz o apelido..">
+        <br>
+        <label for="password">Password:</label>
+        <input type="password" name="password">
+        <br>
+        <label for="data">Data:</label>
+        <input type="date" name="data">
+        <br>
+        <br>
+        <input type="radio" name="gender" value="female">female
+        <br>
+        <input type="radio" name="gender" value="male">male
+        <br>
+        <input type="radio" name="gender" value="other">other
+        <br>
+        <br>
+        <input type="checkbox" name="curso1" value="webdev">Web development
+        <br>
+        <input type="checkbox" name="curso2" value="Design">UX/UI Design
+        <br>
+        <input type="checkbox" name="curso3" value="som">Sonoplastia    
+        <br>
+        <br>
+        <label for="Days">Pick a day:</label>
+        <select name="dias" id="Days">
+            <option value="sat">Saturday</option>
+            <option value="sun">Sunday</option>
+            <option value="mon">Monday</option>
+            <option value="tue" selected>Tuesday</option>
+            <option value="wed">Wednesday</option>
+            <option value="thu">Thursday</option>
+            <option value="fri">Friday</option>
+        </select>
+        <br>
+        <br>
+        <!--
+        <button onclick="prompt('bacalhau')">Teste</button> exemplo de button onclick, javascript
+        -->
+        message: <br>
+        <textarea name="Text" id="" style="width: 400px; height: 200px;resize: none;"></textarea>
+        <!-- style é css
+             width é largura e height, altura
+            px é pixeis
+            resize: none é para bloquear o resize do textarea 
+        -->
+        <br>
+        <br>
+        <label for="file">Upload your file:</label>
+        <input type="file" name="file">
+        <br>
+        <br>
+        <input type="reset">
+        <br>
+        <br>
+        <input type="submit" value="submeter">
+        <hr>
+        <table>
+            <tr>
+              <th>Company</th>
+              <th>Contact</th>
+              <th>Country</th>
+            </tr>
+            <tr>
+              <td>Alfreds Futterkiste</td>
+              <td>Maria Anders</td>
+              <td>Germany</td>
+            </tr>
+            <tr>
+              <td>Centro comercial Moctezuma</td>
+              <td>Francisco Chang</td>
+              <td>Mexico</td>
+            </tr>
+          </table>
+        <hr>
+    </form>
+
+    <!-- elementos nao semanticos -->
+    <!-- div são em block, é o que se utiliza mais-->
+    <div>
+
+    </div>
+
+    <!-- span são em inline, basicamente só se utiliza para estilizar texto-->
+    <span>
+
+    </span>
+    <!--nao semanticos sao campos que nao se sabe o que se vai fazer com elas
+        campos semanticos sao campos que se sabe o que se vai fazer com o mesmo     
+    -->
+
+    <!-- elementos html5 - Semantic -->
+
+    <article></article>
+    <aside></aside>
+    <figure></figure>
+    <footer></footer>
+    <header></header>
+    <nav></nav>
+    <section></section>
+    
+    <!-- todos eles são iguais aos divs e spans mas são semanticos -->
+
+    <div class="header">
+
+    </div>
+
+    <div id="footer">
+        
+    </div>
+
+    <h3 id="lorem">Lorem Ipsum</h3>
+     
+    <p4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit nihil vitae quisquam, sapiente doloribus quae libero molestias quasi! Officiis earum vero dolores iusto veritatis distinctio soluta. Placeat minus quasi aliquam.</p4>
+
+    <h3 id="bottom"><a href="#top">top of the page</a></h3>
+
+    <!-- ao darmos um id a um elemento e pusermos um link a esse id utilizando #nome conseguimos ir para varios sitios na pagina -->
+
+    
+
+
+    <!--
+        method="get" envia informação a partir do url, não se utiliza este nos campos de registo de conta
+        method="post" envia a informação por array(estrutura de dados, que serve para conter informação), não é visivel no url
+
+        input type="" maneira de adicionar um type que à form
+        input type="text" text é o mais comum, onde vai ser posta a informação
+        input type="submit" põe uma box de submit  
+        
+        name - utiliza-se para sabermos qual a box que queremos identificar 
+        placeholder - o que está dentro dos campos que desaparece quando se começa a escrever
+        label for="" - o que se vê no site e for é para o seu destino
+
+        o nome do id="" tem sempre que ser igual ao for=""
+        utilizar nomes diferents entre elementos para o servidor conseguir identificar os elementos
+
+
+
+    -->
+
+</body>
+
+</html>
+
+<!-- 
+    
+    websites para ver com olhos de ver:
+    fwa.com
+    awwwards
+    cssdesignawards
+    behance
+    material.io
+    don norman
+    w3schools
+    developer mozilla 
+    
+    --------------------------------------------------------------
+
+    tudo o que tiver entre estes dois é um comentário, ganhar habito de escrever tudo no comentáio
+    <nome_do_elemento>elementos têm que estar aqui dentro </nome_do_elemento>
+
+
+    nunca por assentos e por sempre tudo .hmtl, ex: contactos.hmtl em ficheiros 
+
+    hmtl
+
+    <nome_do_elemento>
+
+    <nome_do-elemento2></nome_do_elemento2>
+
+    <nome_do-elemento3 prop1="valor" prop2="valor2"> info que é vista no site </nome_do_elemento2>
+      
+      
+      
+    Colocar sempre <!doctype html>
+
+    Colocar sempre <html> </html> toda a informação tem que estar presente entre estes
+
+        colocar sempre <head> </head> head é sempre a metadata = titulo do separador, descrição de websites, consumidos pelo cabeçalho, pelo google 
+            pesquisa não organica é anuncios na pesquisa e anuncios organicos é a pesquisa sem anuncios
+            <title></title> título 
+            <meta charset="utf-8"> tipo de character que tem que estar no head
+            <meta description="descrição do website">
+            <meta keywords="palavras chave para encontrar o website">
+
+        colocar sempre <body> </body>
+
+            <h1> titulo </h1> adiciona titulos à pagina que tem tamanhos predefenidos sendo h1 maior que o h6 
+   
+    Exemplo de imagem:
+        <img src="/images/imagem_da_etic.png" alt="imagem da etic">
+
+        -img="" imagem, sem isto o elemento não funciona
+        -src="" source, funciona para ir buscar a imagem
+        -alt="" alternative text, serve para o website ler para os que têm incapacidade visual e quando a imagem não aparece, aparece o alt em vez da imagem. Muito importante. 
+        -width="" tamanho de imagem ou video, mas nunca se deve utilizar porque o tamanho/peso da imagem continua igual, mais vale utilizar um programa para diminuir o tamanho das imagens.
+        formatos de imagem: jpeg, png, gif. 
+            Utilizar sempre jpeg
+            png só se utiliza para transparencia
+            gif se precisar de uma imagem animada (videos são melhores)        
+
+    Os elementos de hmtl têm dois tipos de display por defeito -> block e inline     
+        <br> significa break, quebra a linha para a linha debaixo
+        <hr> significa horizontal ruler, cria uma linha que pode ser editada em css
+
+    Como colocar um link
+        <a href="www.google.com"></a> exemplo de como colocar um link no codigo e está sempre no body
+        target="_blank" = nova pagina web
+        target="_self" ou nao colocar nada, abre na mesma pagina web
+    
+
+    Como listar informação:
+        <ol> </ol> numeração ordenada de listas antes das palavras
+        <ul> </ul> lista com circulo antes das palavras
+        <li> </li> listagem de informação
+            os bullets conseguem ser modificado com css
+
+
+    Elementos de html que o flash player fazia (novidades do html5): 
+    Video e audio:
+        <canvas> </canvas>
+        <video> </video> - formato:mp4
+        <audio> </audio> - formato:mp3
+            controls + adiciona um controller
+            loop + põe o video em loop
+
+    Estes dois fazem a mesma coisa:
+        <div class="nav"></div>
+        <div class="footer"></div>
+
+        <nav></nav>
+        <footer></footer>
+    
+
+adaptive - 
+responsive - 
+-->
