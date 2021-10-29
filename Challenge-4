@@ -1,0 +1,89 @@
+image of the 4th challenge
+  
+  https://imgur.com/a/veoKmX2
+  
+-------------------------------------------------------------------------
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div style="text-align: center;">
+    <h1>List of people</h1>
+  </div>
+  <br>
+  <div style="text-align: center;">
+    <table rules="all" style="border: 1px;color: black;">
+    <tr>
+      <th>Information:</th>
+      <th>John</th>
+      <th>Sarah</th>
+      <th>Mike</th>
+      <th>kyle</th>
+      <th>Britney</th>
+    </tr>
+    <tr>
+      <td>Income:</td>
+      <td>25k</td>
+      <td>40k</td>
+      <td>37k</td>
+      <td>100k</td>
+      <td>70k</td>
+    </tr>
+    <tr>
+      <td>Age:</td>
+      <td>18</td>
+      <td>23</td>
+      <td>25</td>
+      <td>40</td>
+      <td>35</td>
+    </tr>
+    <tr>
+      <td>Country:</td>
+      <td>Portugal</td>
+      <td>England</td>
+      <td>Spain</td>
+      <td>Germany</td>
+      <td>Russia</td>
+    </tr>
+    </table>
+  </div>  
+
+  <p>These people although born in different countries and having different nationality all share one thing, they're all web developers and they enjoy creating and developing websites.</p>
+  <div>
+    <img src="images/Laptop_image.jpg" width="300" alt="Laptop image">
+  </div>
+  <p><sup><i>Image of one of the people working</i></sup></p>
+  <br>
+  <hr>
+  <p style="color: darkolivegreen;font-family: fantasy ;">Please Answer some questions down below:</p>
+  <br>
+  <br>
+  <form action="Answers.php" method="post">
+    <label for="name">Name:</label>
+    <input type="name" name="name" id="name" placeholder="Your nam..">
+    <br>
+    <label for="email">Email:</label>
+    <input type="email" name="email" id="email" placeholder="Your email..">
+    <br>
+    <label for="phone">Phone:</label>
+    <input type="numbers" name="phone" id="phone" placeholder="Phone number...">
+    <br>
+    <br>
+    <label for="answers">Why is there such an income gap between those web developers?</label>
+    <br>
+    <textarea name="answers" id="answers" rows="10" cols="55" style="resize: none;" placeholder="Your answer.."></textarea>
+    <br>
+    <br>
+    <div style="text-align: center;">
+      <input type="submit" id="submit" value="Send">
+    </div>
+  </form>
+
+</body>
+</html>
