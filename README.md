@@ -9,9 +9,10 @@
   </head>
   <body>
     
-    <h2> Este conteúdo pertence aos alunos do curso de web dev do ano 2021/22 da escola Etic </h2>
+    Este conteúdo pertence aos alunos do curso de web dev do ano 2021/22 da escola Etic
     <a href="http://www.etic.pt" target="_blank">Etic</a>
-    <h3> Feito pelo aluno Miguel Silva </h3>
+    
+    Feito por Miguel Silva
     
   </body>
 </html>
