@@ -1,0 +1,110 @@
+image of the 3rd challenge
+
+  https://imgur.com/a/oKtiC0d
+  
+---------------------------------------------------------------------------
+html
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <!-- table test with math-->
+  <h1>math table challenge in html only</h1>
+  <br>
+  <table style="border:2px solid black;border-spacing: 25px;" rules="all">
+    <tr>
+      <th>multiply x</th>
+      <th>1</th>
+      <th>2</th>
+      <th>3</th>
+      <th>4</th>
+      <th>5</th>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>1</td>
+      <td>2</td>
+      <td>3</td>
+      <td>4</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>2</td>
+      <td>4</td>
+      <td>6</td>
+      <td>8</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>3</td>
+      <td>6</td>
+      <td>9</td>
+      <td>12</td>
+      <td>15</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>4</td>
+      <td>8</td>
+      <td>12</td>
+      <td>16</td>
+      <td>20</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>5</td>
+      <td>10</td>
+      <td>15</td>
+      <td>20</td>
+      <td>25</td>
+    </tr>
+  </table>
+  <br>
+  <hr>
+  <form action="teste.php" method="post">
+    <label for="table">Were you able to do the math table challenge?</label>
+    <input type="radio" name="table" id="yes" value="yes">yes
+    <input type="radio" name="table" id="no" value="no"> no
+    <br>
+    <hr>
+    <label for="problems">Did you have problems making the table?</label>
+    <input type="radio" name="problems" id="problems" value="yes">yes
+    <input type="radio" name="problems" id="problems" value="no">no
+    <br>
+    <hr>
+    <label for="which_problems">If the answer to the previous question was yes, then please specify which problems
+      occurred during the creation of the table:</label>
+    <br>
+    <br>
+    <textarea name="which_problems" id="which_problems" cols="50" rows="7"></textarea>
+    <br>
+    <hr>
+    <label for="Opinions">How was the challenge?</label>
+    <br>
+    <br>
+    <input type="checkbox" name="opinions" id="fun" value="fun">Fun
+    <input type="checkbox" name="opinions" id="interesting" value="interesting">Interesting
+    <input type="checkbox" name="opinions" id="Challenging" value="Challenging">Challenging
+    <input type="checkbox" name="opinions" id="Annoying" value="Annoying">Annoying
+    <br>
+    <br>
+    <br>
+    <input type="submit" value="Send it!">
+  </form>
+
+
+
+</body>
+
+</html>
