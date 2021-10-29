@@ -1,0 +1,87 @@
+image of the 2nd Challenge
+  
+  https://imgur.com/a/tbeR2m5
+  
+--------------------------------------------------------
+
+html
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="teste.php" method="post">
+        <label for="pirst">First name:</label>
+        <input type="name" id="" placeholder="First name..">
+        <br>
+        <br>
+        <label for="last">Last name:</label>
+        <input type="text" id="" placeholder="Last name..">
+        <br>
+        <br>
+        <label for="adress">Adress:</label>
+        <input type="text" id="" placeholder="My adress..">
+        <br>
+        <br>
+        <label for="state">State:</label>
+        <select name="state" id="">
+            <option value="NSW">NSW</option>
+            <option value="Test">Test</option>
+        </select>
+        <br>
+        <br>
+        <label for="password">Password:</label>
+        <input type="password" id="" placeholder="Password..">
+        <br>
+        <br>
+        <label for="gender">Gender:</label>
+        <input type="radio" name="gender" id="">Male <in>or</in>
+        <input type="radio" name="gender" id="">Female <in>or</in>
+        <input type="radio" name="gender" id="">Other <in>or</in>
+        <br>
+        <br>
+        <label for="sheep">Do you bleat like a sheep?</label>
+        <input type="checkbox" name="Yes" id="">
+        <br>
+        <br>
+        <label for="coffee">How many cups of coffee do you drink a day?</label>
+        <br>
+        <br>
+        <input type="radio" name="coffee">0 to 2 Cup(s)
+        <input type="radio" name="coffee">2 to 4 cups
+        <br>
+        <input type="radio" name="coffee">4 to 8 Cups
+        <input type="radio" name="coffee">8 to 16 Cups
+        <br>
+        <br>
+        <label for="form">Do you own a personal computer?</label>
+        <select name="Computer" id="">
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+        </select>
+        <br>
+        <br>
+        <label for="form">How long would it take to make a HTML form?</label>
+        <br>
+        <br>
+        <input type="text">
+        <br>
+        <br>
+        <label for="comments">Comments:</label><br>
+        <textarea name="" id="" cols="40" rows="5"></textarea>
+        <br>
+        <input type="button" value="Reset form">
+        <input type="submit" value="Send Survey">
+    </form>
+
+
+</body>
+
+</html>
