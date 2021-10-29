@@ -9,7 +9,7 @@
   </head>
   <body>
     
-    Este conteúdo pertence aos alunos do curso de web dev do ano 2021/22 da escola Etic
+    Este conteúdo é para os alunos do curso de web dev do ano 2021/22 da escola Etic
     http://www.etic.pt
     
     Feito por Miguel Silva
