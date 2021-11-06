@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+    /* 
+    Isto é um 
+    comentário
+    multi-line
+    */
+
+    /* 
+    seletor{
+      nome-da-regra: valor;
+      nome-regra2: valor;
+    } 
+
+    */
+    p,h1{
+      color: blue;
+    }
+
+    /* 
+    *{
+      border: 1px solid red;
+    }
+
+    utilizado para descobrir porque é que existe um scroll horizontal
+    o * serve para selecionarmos todos os elementos html
+
+    body{
+      margin: 0px;
+    }
+    serve para tirar as margens do body 
+    */
+
+    #especial{
+      font-size: 50px;
+    }
+    
+    .format{
+      font-weight: 400;
+    }
+    /* o peso regular é 400 e o heading é 700 */
+
+    /* id é com # e o class é com . */
+
+    li a{
+      text-decoration: none;
+    }
+    /* seleciona todos os "a" dentro dos "li" */
+
+    .container > h1{
+      color: salmon;
+    }
+    /* utilizamos o ">" para só modificarmos os filhos diretos da primeira regra ".container" */
+
+    .container + h1{
+      font-size: 35px;
+    }
+    /* o + serve para customizar o elemento a seguir ao elemento anterior ".container" */
+
+    ol ~ h1{
+      color:rgba(100,0,25,0.5);
+    }
+    /* o ~ serve para editor todos os elementos depois do elemento anterior */
+
+    a:hover{
+      font-size: 70px;
+    }
+    /* serve para mudar o texto quando se passa o rato por cima */
+
+    /* ver flexboxfroggy e 
+    https://code.tutsplus.com/pt/tutorials/the-30-css-selectors-you-must-memorize--net-16048
+    */
+
+    .example {
+      color: red !important;
+    }
+
+    /* utilizamos regra "!important" para dizermos que o elemento que é important independentemente de quando é lido é sempre o mais impotante, mas javascript tem prioridade */
+
+
+    .example {
+      margin-top: 10px;
+      margin-right: 10px;
+      margin-bottom: 10px;
+      margin-left: 10px;
+      margin: 10px;
+    }
+    /* margin é para fora, como colocar margins, ao utilizar "margin:" temos que utilizar a ordem (4 números) ou um único numero será igual em todos os lados */
+
+    .example {
+      padding-top: 10px;
+      padding-right: 10px;
+      padding-bottom: 10px;
+      padding-left: 10px;
+      padding: 10px;
+    }
+    /* padding é para dentro, é exatamente igual ao margin, mas para dentro. */
+
+    .container1 {
+      width: 100px;
+      height: 100px;
+      background-color: fuchsia;
+      padding-top: 30px;
+      padding-left: 30px;
+      margin-left: 50px;
+      margin-top: 50px;
+      margin-bottom: 50px;
+      }
+
+
+    .container2 {
+      width: 100px;
+      height: 100px;
+      border: 2px solid black;
+    }
+
+    * {
+      -webkit-box-sizing: border-box; 
+      -moz-box-sizing: border-box;    
+      box-sizing: border-box;  
+    }
+
+    /* estes elementos fazem com que os elementos não aumentem de tamanho quando se utiliza o padding, normalmente utiliza-se logo no inicio de qualquer ficheiro */
+
+    p{
+      padding: 30px;
+    }
+
+    p {
+      position: static;
+    }
+
+    /* 
+    css position, todos os elementos html estão posicionados por efeito em static [position: static;]
+
+    tipos de position:
+      -fixed
+      -static
+      -relative
+      -absolute
+      -sticky
+
+    */
+
+  </style>
+  <!-- 
+    document.getElementById("especial")
+
+    documento.getElementByClassName("format")
+
+    $(".format")
+    formas de escrever javascrypt e de jquery, com $
+
+  -->
+
+
+
+</head>
+<body>
+  <!-- 
+    css = cascading style sheets
+
+    nome-da-regra: valor;
+
+    color: black;
+
+    3 formas de escrever regras css
+
+    - inline: dentro dos elementos com recurso ao atributo style
+      
+    - internal: no documento, dentro do head, no elemento style
+
+    - external:  num documento externo com a extensão .css que associamo ao nosso documento html através do elemento <link>
+
+    3 tipos de regras
+
+    - elemento/seletor
+
+    - id
+
+    - class
+
+
+
+   -->
+    <h1 class="example">Teste utilizando o !important</h1>
+   <h1 style="color:fuchsia;font-style: italic;">Titulo cheio de estilo</h1>
+
+   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur blanditiis aliquam dolor ut repellat pariatur, laboriosam delectus eius molestiae soluta voluptatum magnam eos accusantium veniam culpa tempore, sequi commodi quos sapiente. Nisi a rerum mollitia harum asperiores blanditiis, veniam, vitae quasi dolor quod corporis velit unde voluptatum facilis excepturi fugit ad sequi odit voluptatem maxime dicta possimus ipsam necessitatibus! Iusto officiis laboriosam ipsam voluptates asperiores quasi expedita quidem odio? Nostrum saepe alias facilis illo incidunt, odio autem praesentium laborum blanditiis soluta reiciendis quas quidem rerum. At perspiciatis, veritatis, laboriosam quo officiis ex ad voluptate natus, reiciendis tempora quasi nesciunt veniam?</p>
+   
+   <h1 id="especial">Titulo especial</h1>
+
+   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur blanditiis aliquam dolor ut repellat pariatur, laboriosam delectus eius molestiae soluta voluptatum magnam eos accusantium veniam culpa tempore, sequi commodi quos sapiente. Nisi a rerum mollitia harum asperiores blanditiis, veniam, vitae quasi dolor quod corporis velit unde voluptatum facilis excepturi fugit ad sequi odit voluptatem maxime dicta possimus ipsam necessitatibus! Iusto officiis laboriosam ipsam voluptates asperiores quasi expedita quidem odio? Nostrum saepe alias facilis illo incidunt, odio autem praesentium laborum blanditiis soluta reiciendis quas quidem rerum. At perspiciatis, veritatis, laboriosam quo officiis ex ad voluptate natus, reiciendis tempora quasi nesciunt veniam?</p>
+
+   <h1 class="format">Titulo especial</h1>
+
+   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur blanditiis aliquam dolor ut repellat pariatur, laboriosam delectus eius molestiae soluta voluptatum magnam eos accusantium veniam culpa tempore, sequi commodi quos sapiente. Nisi a rerum mollitia harum asperiores blanditiis, veniam, vitae quasi dolor quod corporis velit unde voluptatum facilis excepturi fugit ad sequi odit voluptatem maxime dicta possimus ipsam necessitatibus! Iusto officiis laboriosam ipsam voluptates asperiores quasi expedita quidem odio? Nostrum saepe alias facilis illo incidunt, odio autem praesentium laborum blanditiis soluta reiciendis quas quidem rerum. At perspiciatis, veritatis, laboriosam quo officiis ex ad voluptate natus, reiciendis tempora quasi nesciunt veniam?</p>
+
+
+
+
+   <a href="#">link1</a>
+   <ul>
+     <li><a href="#">link da lista1</a></li>
+     <li><a href="#">link da lista1</a></li>
+     <li><a href="#">link da lista1</a></li>
+     <li><a href="#">link da lista1</a></li>
+     <li>
+       <ol>
+         <li><a href="#">link da sublista</a></li>
+         <li><a href="#">link da sublista</a></li>
+         <li><a href="#">link da sublista</a></li>
+         <h1>teste</h1>
+       </ol>
+     </li>
+   </ul>
+
+   <div class="container">
+     <h1>filho direto da div container</h1>
+     <h1>filho direto da div container</h1>
+     <h1>filho direto da div container</h1>
+     <div>
+      <h1>teste in</h1>
+      <h1>teste in</h1>
+      <h1>teste in</h1>
+     </div>
+     <h1>filho direto da div container</h1>
+
+   </div>
+   <h1>H1 a seguir à div</h1>
+
+   <ol>
+     <li>1 item</li>
+     <li>2 item</li>
+   </ol>
+   <h1>teste</h1>
+   <h1>teste</h1>
+   <h1>teste</h1>
+   <h1>teste</h1>
+   <hr>
+   <h1>fim</h1>
+
+   <div class="container1"> palavras aqui </div>
+
+   <div class="container2"></div>
+
+</body>
+</html>
