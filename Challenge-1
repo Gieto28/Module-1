@@ -2,28 +2,9 @@ imagem do 1st challenge
 
   https://imgur.com/a/9C351FP
 
+-------------------------------------
 
----------------------------------------------
-style.css
 
-textarea {
-  overflow-y: scroll;
-  resize: none;
-}
-
-.center-block {
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
-}
-/* input and label center */
-label {
-  display: block;
-  float: left;
-  width: 130px;
-}
-
----------------------------------------------
 index.html
 
 <!DOCTYPE html>
