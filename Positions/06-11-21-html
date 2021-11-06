@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="styles/style.css">
+
+    <style>
+        /* 
+        css position, todos os elementos html estão posicionados por efeito em static [position: static;]
+
+        tipos de position:
+        -fixed
+        -static
+        -relative
+        -absolute
+        -sticky
+
+        */
+
+
+
+    </style>
+
+</head>
+<body> 
+
+    <div class="static">
+        <h4>static</h4>
+    </div>
+
+    <div class="relative">
+        <h4>relative</h4>
+    </div>
+
+    <div class="fixed">
+        <h4>fixed</h4>
+    </div>
+
+    <div class="absolute">
+        <h4>absolute</h4>
+    </div>
+
+    <div class="sticky">
+        <h4>sticky</h4>
+    </div>
+
+
+</body>
+</html>
