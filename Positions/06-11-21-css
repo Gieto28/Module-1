@@ -1,0 +1,49 @@
+/* documento css */
+
+div {
+  width: 200px;
+  height: 200px;
+}
+
+.static {
+  background-color: rgba(128, 128, 128, 0.404);
+  position: static;
+}
+/* sempre no mesmo sitio independente do width e height */
+.relative {
+  background-color: rgba(230, 123, 32, 0.404);
+  position: relative;
+  top: 50px;
+  left: 50px;
+}
+/* podemos posicionar relativo à posição original */
+.fixed {
+  background-color: rgba(32, 234, 234, 0.404);
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+/* este elemento fica sempre posicionado no sitio onde queremos independente do scroll que fizermos na pagina */
+
+.absolute {
+  background-color: rgba(220, 22, 23, 0.404);
+  position: absolute;
+  top: 50px;
+  left: 300px;
+}
+/* posiciona-se proporcional dentro do elemento que esteja posicionado diferente de static */
+.sticky {
+  background-color: rgba(34, 200, 150, 0.404);
+}
+/* smiliar to fixed but only shows up to the px we define  */
+
+/* z-index: -2; serve para mandar-mos o elemento para tras ou para a frente */
+
+/*
+css-tricks.com 
+codepen
+*/
+
+/* one page site  */
+
+/* roman cortez */
