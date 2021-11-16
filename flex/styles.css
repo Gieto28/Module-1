@@ -1,0 +1,50 @@
+/* 
+    flexbox
+    propriedades de um elemento com display: flex
+    
+    flex-direction
+        -define a direção do stack dos elementos do container:
+            -row (default)
+            -column
+            -row-reverse
+            -column-reverse
+    
+    flex-wrap
+        -define se os elementos fazem wrap:
+            -wrap
+            -no-wrap (default)
+            -wrap-reverse
+    flex-flow
+        -mix da regra flex-direction com flex-wrap:
+            -flex-flow: flex-direction flex-wrap;
+    justify-content
+        -define o alinhamento dos elementos em flex:
+            -flex-start(default)
+            -flex-end
+            -center
+            -space-around(espacemento igual)
+            -space-between (obriga o primeiro e ultimo elemento a ir para os extremos)
+            -space-evenly
+    align-content
+
+    align-items
+        -define o alinhamento dos elementos flex na vertical
+            -center
+            -flex-start(default)
+            -flex-end
+
+ */
+
+.container {
+  display: flex;
+  border: 2px solid red;
+  width: 70vh;
+  height: 70vh;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  background-color: rgba(190, 130, 139, 0.9);
+  margin: 5px;
+}
