@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            height: 300px;
+            border: 2px dashed #9c7c2c;
+        }
+
+        .div1 {
+            margin-left: 10px;
+            margin-top: 10px; 
+            height: 200px;
+            width: 140px;
+            border: 2px solid red;
+            float: left;
+        }
+
+        .div2 {
+            height: 300px;
+            width: 140px;
+            border: 2px solid blue;
+            float: right;
+            z-index: 10;
+        }
+
+        .rolha {
+            clear: both;
+        }
+        /* bloqueia o elemento de ir para cima do elemento que está por baixo */
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="div1"></div>
+        <div class="div2"></div>
+    </div>
+    <!-- float manda as divs para os cantos (float: right and float: left) da div maior -->
+    <div class="rolha"></div>    
+</body>
+</html>
