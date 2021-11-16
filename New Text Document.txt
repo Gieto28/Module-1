@@ -1,0 +1,27 @@
+media queries:
+
+
+- definir varias medidas (que se chamam break points) para usar com as media queries:
+- break points:
+	-https://getbootstrap.com/docs/5.1/layout/breakpoints/
+	-576px
+	-768px		
+	-992px
+	-1200px	
+
+- começar sempre com a resolução de menos de 576px (mobile first) SEMPRE!
+media queries:
+	-css:
+	@media (media (min-width:576px);
+		-não é necessario fazer media queries para a resolução de telemovel por ser a primeira a ser feita, é a "base"
+			depois dizemos que a partir da min-height de 576px o elemento muda.
+
+	nao editar os ficheiros de bootstrap. com os updates eles desaparecem. fazemos outra regra para editarmos.
+	quickstart:
+	-https://getbootstrap.com/docs/5.1/getting-started/introduction/
+		-fazer download do css e do bundle.
+			-css no head antes de outros imports ou css
+			-bundle no final do body
+
+projeto:
+	-usar bootstrap.
