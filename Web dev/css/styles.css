@@ -1,0 +1,78 @@
+/* X-Small devices (portrait phones, less than 576px) */
+/* No media query for `xs` since this is the default in Bootstrap */
+
+/* Small devices (landscape phones, 576px and up) */
+
+.h4-sm,
+.h4-md,
+.h4-lg,
+.h4-xl,
+.h4-xxl {
+  display: none;
+}
+
+div {
+  border: 1px solid black;
+}
+
+.container {
+  background-color: rgba(239, 123, 123, 0.9);
+}
+
+.container-fluid {
+  background-color: rgba(123, 238, 129, 0.8);
+}
+/* display: none, não aparece os elementos e visibility: hidden faz com que o elemente ocupe espaço mas não é visivel */
+
+@media (min-width: 576px) {
+  .titulo1 {
+    font-size: 2.5em;
+    color: red;
+  }
+  .h4-sm {
+    display: block;
+  }
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .titulo1 {
+    font-size: 3em;
+    color: blue;
+  }
+  .h4-md {
+    display: block;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .titulo1 {
+    font-size: 3.5em;
+    color: green;
+  }
+  .h4-lg {
+    display: block;
+  }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .titulo1 {
+    font-size: 4em;
+    color: yellow;
+  }
+  .h4-xl {
+    display: block;
+  }
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+  .titulo1 {
+    font-size: 4.5em;
+    color: fuchsia;
+  }
+  .h4-xxl {
+    display: block;
+  }
+}
